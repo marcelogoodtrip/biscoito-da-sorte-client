@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import narutoImg from '../../images/naruto.png';
+import biscoitoImg from '../../images/biscoito.png';
 import { Quotes } from '../../components';
 import { getQuote } from '../../services';
-import jutsoSound from '../../sounds/jutso.mp3'
+import jutsoSound from '../../sounds/Shanghai Awakes.mp3'
 
 const audio = new Audio(jutsoSound);
 
@@ -43,7 +43,7 @@ export function App() {
                 // =>
                 {...quoteState} onUpdate={onUpdate}
             />
-            <NarutoImg src={narutoImg} alt="Naruto with a kunai" />
+            <BiscoitoImg src={biscoitoImg} alt="Biscoito da sorte" />
         </Content>
     );
 }
@@ -56,7 +56,7 @@ const Content = styled.div `
     align-items: center;
 `;
 
-const NarutoImg = styled.img `
+const BiscoitoImg = styled.img `
     max-width: 50vw;
     align-self: flex-end;
 `;

@@ -6,8 +6,8 @@ export const Quotes = ({ quote, speaker, onUpdate }) => {
     return (
         <Wrapper>
             <Quote>{quote}</Quote>
-            <Speaker>- {speaker}</Speaker>
-            <Button onClick={onUpdate}>Quote no Jutsu</Button>
+            <Speaker>{speaker}</Speaker>
+            <Button onClick={onUpdate}>Quebrar Biscoito!</Button>
         </Wrapper>
     );
 };
@@ -23,11 +23,14 @@ const Wrapper = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 `;
 
 const Quote = styled.p `
-    font-size: 2em;
+    color: #fff;
+    font-size: 3em;
     margin: 0;
+    background: rgba(164, 0, 0, 0.5);
 `;
 
 const Speaker = styled(Quote) `

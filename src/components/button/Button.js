@@ -7,7 +7,7 @@ export const Button = styled.button `
     border-raius: none;
     font-size: 1.5em;
     padding: 10px 20px;
-    font-family: 'New Tegomin', serif;
+    font-family: 'Mansalva', serif;
     cursor: pointer;
     box-shadow: #333 3px 3px;
 

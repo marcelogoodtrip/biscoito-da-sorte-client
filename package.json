@@ -1,5 +1,5 @@
 {
-  "name": "naruto-quotes",
+  "name": "biscoito-da-sorte",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,13 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Aplicação web desenvolvida utilizando React, o objetivo deste projeto é simular um biscoito da sorte. (Client Side)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelogoodtrip/biscoito-da-sorte-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelogoodtrip/biscoito-da-sorte-client/issues"
+  },
+  "homepage": "https://github.com/marcelogoodtrip/biscoito-da-sorte-client#readme"
 }
